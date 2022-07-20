@@ -10,7 +10,7 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+				"/home/faiz/Desktop/dsa/dsa-codes-cpp/output"
 			],
 			"options": {
 				"cwd": "${fileDirname}"

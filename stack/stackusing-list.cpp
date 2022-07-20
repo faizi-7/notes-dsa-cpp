@@ -14,6 +14,8 @@ class Node{
 
 template <typename T>
 
+//All functions of this stack class are O(1)
+
 class stackusinglist{
     Node<T> *head;
     int size;

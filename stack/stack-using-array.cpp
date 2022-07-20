@@ -2,6 +2,8 @@
 using namespace std;
 template <typename T>
 
+//All functions of this stack class are O(1)
+
 class stackusingarray{
     T *data;
     int nextIndex;
@@ -26,7 +28,7 @@ class stackusingarray{
             }
             capacity*= 2;
             delete []data;
-            newData= data;
+            data= newData;
         }
         data[nextIndex]= element;
         nextIndex++;
